@@ -55,6 +55,7 @@ return {
         },
         ["<Leader>td"] = { function() utils.toggle_term_cmd "lazydocker" end, desc = "ToggleTerm lazydocker" },
         ["<Leader>tt"] = { function() utils.toggle_term_cmd "btop" end, desc = "ToggleTerm btop" },
+        ["<F7>"] = { "<cmd>ToggleTerm direction=float<cr>" },
 
         -- mappings seen under group name "Buffer"
         ["<Leader>bd"] = {
